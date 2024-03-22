@@ -49,6 +49,7 @@ declare module '$env/static/private' {
 	export const USER: string;
 	export const npm_package_scripts_check_watch: string;
 	export const COMMAND_MODE: string;
+	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const SSH_AUTH_SOCK: string;
 	export const WARP_IS_LOCAL_SHELL_SESSION: string;
@@ -81,7 +82,6 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const XPC_SERVICE_NAME: string;
 	export const npm_package_version: string;
-	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
 	export const npm_package_devDependencies_svelte_check: string;
 	export const HOME: string;
 	export const SHLVL: string;
@@ -92,6 +92,7 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_format: string;
 	export const npm_lifecycle_script: string;
 	export const SSH_SOCKET_DIR: string;
+	export const npm_package_devDependencies_pnpm: string;
 	export const npm_config_user_agent: string;
 	export const HOMEBREW_CELLAR: string;
 	export const INFOPATH: string;
@@ -159,6 +160,7 @@ declare module '$env/dynamic/private' {
 		USER: string;
 		npm_package_scripts_check_watch: string;
 		COMMAND_MODE: string;
+		npm_package_devDependencies__sveltejs_adapter_static: string;
 		PNPM_SCRIPT_SRC_DIR: string;
 		SSH_AUTH_SOCK: string;
 		WARP_IS_LOCAL_SHELL_SESSION: string;
@@ -191,7 +193,6 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		XPC_SERVICE_NAME: string;
 		npm_package_version: string;
-		npm_package_devDependencies__sveltejs_adapter_auto: string;
 		npm_package_devDependencies_svelte_check: string;
 		HOME: string;
 		SHLVL: string;
@@ -202,6 +203,7 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_format: string;
 		npm_lifecycle_script: string;
 		SSH_SOCKET_DIR: string;
+		npm_package_devDependencies_pnpm: string;
 		npm_config_user_agent: string;
 		HOMEBREW_CELLAR: string;
 		INFOPATH: string;
