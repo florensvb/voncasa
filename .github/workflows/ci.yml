@@ -5,7 +5,7 @@ on:
       - main  # Set a branch to deploy
 
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
@@ -28,8 +28,10 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./build/.nojekyll
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+
