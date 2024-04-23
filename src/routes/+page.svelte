@@ -17,7 +17,7 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 1px;
 		height: 100%;
-		background: black;
+		background: #2b2f38;
 	}
 
 	.cell {
@@ -37,7 +37,7 @@
 
 	.cell:hover,
 	a:active > .cell {
-		background: black;
+		background: #2b2f38;
 		color: white;
 	}
 
